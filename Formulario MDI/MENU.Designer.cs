@@ -37,9 +37,9 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.equposDeEscritorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.GamaAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.GamaMediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.GamaBajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PROVEEDORESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CLIENTESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FACTURACIONtoolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cuadroDeDialogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -78,6 +78,7 @@ namespace Formulario_MDI
             // opcion1ToolStripMenuItem
             // 
             this.opcion1ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
+            this.opcion1ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
             this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion1ToolStripMenuItem.Text = "DESCUENTOS";
@@ -86,6 +87,7 @@ namespace Formulario_MDI
             // opcion2ToolStripMenuItem
             // 
             this.opcion2ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
+            this.opcion2ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
             this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion2ToolStripMenuItem.Text = "OFERTAS DEL MES";
@@ -114,33 +116,40 @@ namespace Formulario_MDI
             // menu3ToolStripMenuItem
             // 
             this.menu3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.GamaAltaToolStripMenuItem,
-            this.GamaMediaToolStripMenuItem,
-            this.GamaBajaToolStripMenuItem});
+            this.PROVEEDORESToolStripMenuItem,
+            this.CLIENTESToolStripMenuItem,
+            this.FACTURACIONtoolStripMenuItem2});
             this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
             this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.menu3ToolStripMenuItem.Text = "Inventario ";
             this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
             // 
-            // GamaAltaToolStripMenuItem
+            // PROVEEDORESToolStripMenuItem
             // 
-            this.GamaAltaToolStripMenuItem.Name = "GamaAltaToolStripMenuItem";
-            this.GamaAltaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.GamaAltaToolStripMenuItem.Text = "Proveedores";
+            this.PROVEEDORESToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
+            this.PROVEEDORESToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PROVEEDORESToolStripMenuItem.Name = "PROVEEDORESToolStripMenuItem";
+            this.PROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.PROVEEDORESToolStripMenuItem.Text = "PROVEEDORES";
+            this.PROVEEDORESToolStripMenuItem.Click += new System.EventHandler(this.PROVEEDORESToolStripMenuItem_Click);
             // 
-            // GamaMediaToolStripMenuItem
+            // CLIENTESToolStripMenuItem
             // 
-            this.GamaMediaToolStripMenuItem.Name = "GamaMediaToolStripMenuItem";
-            this.GamaMediaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.GamaMediaToolStripMenuItem.Text = "Clientes";
-            this.GamaMediaToolStripMenuItem.Click += new System.EventHandler(this.GamaMediaToolStripMenuItem_Click);
+            this.CLIENTESToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
+            this.CLIENTESToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CLIENTESToolStripMenuItem.Name = "CLIENTESToolStripMenuItem";
+            this.CLIENTESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.CLIENTESToolStripMenuItem.Text = "CLIENTES";
+            this.CLIENTESToolStripMenuItem.Click += new System.EventHandler(this.CLIENTESToolStripMenuItem_Click);
             // 
-            // GamaBajaToolStripMenuItem
+            // FACTURACIONtoolStripMenuItem2
             // 
-            this.GamaBajaToolStripMenuItem.Name = "GamaBajaToolStripMenuItem";
-            this.GamaBajaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.GamaBajaToolStripMenuItem.Text = "Facturacion ";
-            this.GamaBajaToolStripMenuItem.Click += new System.EventHandler(this.GamaBajaToolStripMenuItem_Click);
+            this.FACTURACIONtoolStripMenuItem2.BackColor = System.Drawing.Color.HotPink;
+            this.FACTURACIONtoolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FACTURACIONtoolStripMenuItem2.Name = "FACTURACIONtoolStripMenuItem2";
+            this.FACTURACIONtoolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.FACTURACIONtoolStripMenuItem2.Text = "FACTURACION";
+            this.FACTURACIONtoolStripMenuItem2.Click += new System.EventHandler(this.FACTURACIONtoolStripMenuItem2_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -182,7 +191,7 @@ namespace Formulario_MDI
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MENU";
-            this.Text = "Formulario MDI";
+            this.Text = "COMPUTERS GUEVARA";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -203,11 +212,11 @@ namespace Formulario_MDI
         private System.Windows.Forms.ToolStripMenuItem opcion1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcion2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem GamaAltaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem GamaMediaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem GamaBajaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PROVEEDORESToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem CLIENTESToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem equposDeEscritorioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem FACTURACIONtoolStripMenuItem2;
     }
 }
 

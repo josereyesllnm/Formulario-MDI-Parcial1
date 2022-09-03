@@ -71,17 +71,9 @@ namespace Formulario_MDI
             f8.ShowDialog();
         }
 
-        private void GamaMediaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            PortatilesGamaMedia f10 = new PortatilesGamaMedia();
-            f10.ShowDialog();
-        }
+   
 
-        private void GamaBajaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            PortatilesGamaBaja f11 = new PortatilesGamaBaja();
-            f11.ShowDialog();
-        }
+       
 
         private void menuToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -129,6 +121,24 @@ namespace Formulario_MDI
         private void equposDeEscritorioToolStripMenuItem_Click(object sender, EventArgs e)
         {
             EquiposDeEscritorio form = new EquiposDeEscritorio();
+            form.ShowDialog();
+        }
+
+        private void FACTURACIONtoolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FACTURACION form = new FACTURACION();
+            form.ShowDialog();
+        }
+
+        private void CLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CLIENTES form = new CLIENTES();
+            form.ShowDialog();
+        }
+
+        private void PROVEEDORESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PROVEEDORES form = new PROVEEDORES();
             form.ShowDialog();
         }
     }
