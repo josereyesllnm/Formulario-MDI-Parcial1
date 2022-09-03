@@ -71,15 +71,15 @@ namespace Formulario_MDI
             this.opcion1ToolStripMenuItem,
             this.opcion2ToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
-            this.menuToolStripMenuItem.Text = "Combos";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.menuToolStripMenuItem.Text = "Promociones";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // opcion1ToolStripMenuItem
             // 
             this.opcion1ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion1ToolStripMenuItem.Text = "DESCUENTOS";
             this.opcion1ToolStripMenuItem.Click += new System.EventHandler(this.opcion1ToolStripMenuItem_Click);
             // 
@@ -87,7 +87,7 @@ namespace Formulario_MDI
             // 
             this.opcion2ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion2ToolStripMenuItem.Text = "OFERTAS DEL MES";
             this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
@@ -118,27 +118,28 @@ namespace Formulario_MDI
             this.GamaMediaToolStripMenuItem,
             this.GamaBajaToolStripMenuItem});
             this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
-            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.menu3ToolStripMenuItem.Text = "Portatiles";
+            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.menu3ToolStripMenuItem.Text = "Inventario ";
             this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
             // 
             // GamaAltaToolStripMenuItem
             // 
             this.GamaAltaToolStripMenuItem.Name = "GamaAltaToolStripMenuItem";
-            this.GamaAltaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.GamaAltaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.GamaAltaToolStripMenuItem.Text = "Proveedores";
             // 
             // GamaMediaToolStripMenuItem
             // 
             this.GamaMediaToolStripMenuItem.Name = "GamaMediaToolStripMenuItem";
-            this.GamaMediaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.GamaMediaToolStripMenuItem.Text = "Gama Media";
+            this.GamaMediaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.GamaMediaToolStripMenuItem.Text = "Clientes";
             this.GamaMediaToolStripMenuItem.Click += new System.EventHandler(this.GamaMediaToolStripMenuItem_Click);
             // 
             // GamaBajaToolStripMenuItem
             // 
             this.GamaBajaToolStripMenuItem.Name = "GamaBajaToolStripMenuItem";
-            this.GamaBajaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.GamaBajaToolStripMenuItem.Text = "Gama Baja";
+            this.GamaBajaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.GamaBajaToolStripMenuItem.Text = "Facturacion ";
             this.GamaBajaToolStripMenuItem.Click += new System.EventHandler(this.GamaBajaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
@@ -155,7 +156,11 @@ namespace Formulario_MDI
             this.toolStripMenuItem1.Text = "Ayuda";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
-            
+            // cuadroDeDialogoToolStripMenuItem
+            // 
+            this.cuadroDeDialogoToolStripMenuItem.Name = "cuadroDeDialogoToolStripMenuItem";
+            this.cuadroDeDialogoToolStripMenuItem.Size = new System.Drawing.Size(12, 20);
+            // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";

@@ -109,5 +109,10 @@ namespace Formulario_MDI
                +
                   "           Su compra ha sido un exito!!", " Computers Guevara.");
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
