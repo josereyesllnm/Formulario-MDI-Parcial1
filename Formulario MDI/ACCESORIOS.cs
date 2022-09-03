@@ -106,5 +106,15 @@ namespace Formulario_MDI
                 +
                    "           Su compra ha sido un exito!!", " Computers Guevara.");
         }
+
+        private void ACCESORIOS_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
