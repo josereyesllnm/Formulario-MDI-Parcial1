@@ -134,7 +134,7 @@ namespace Formulario_MDI
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(136, 398);
+            this.label7.Location = new System.Drawing.Point(136, 388);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 16);
             this.label7.TabIndex = 15;
@@ -174,7 +174,7 @@ namespace Formulario_MDI
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("MS PGothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(514, 270);
+            this.label8.Location = new System.Drawing.Point(513, 242);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(241, 65);
             this.label8.TabIndex = 19;

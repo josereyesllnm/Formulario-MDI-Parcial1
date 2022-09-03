@@ -78,18 +78,18 @@ namespace Formulario_MDI
             this.button2.BackColor = System.Drawing.Color.Violet;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(688, 406);
+            this.button2.Location = new System.Drawing.Point(641, 402);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 32);
+            this.button2.Size = new System.Drawing.Size(135, 36);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Volver a Inicio";
+            this.button2.Text = "VOLVER AL MENU";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(81, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(64, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 131);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -99,7 +99,7 @@ namespace Formulario_MDI
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(532, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(532, 57);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(157, 131);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +110,7 @@ namespace Formulario_MDI
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(67, 181);
+            this.label4.Location = new System.Drawing.Point(61, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(190, 16);
             this.label4.TabIndex = 15;
@@ -120,7 +120,7 @@ namespace Formulario_MDI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(529, 181);
+            this.label1.Location = new System.Drawing.Point(521, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(168, 16);
             this.label1.TabIndex = 16;
@@ -174,9 +174,9 @@ namespace Formulario_MDI
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(326, 65);
             this.label6.TabIndex = 21;
-            this.label6.Text = "Modelo de CPU\tApple ci5\r\nVelocidad de la CPU 3 GHz\r\nDescripción de la tarjeta Int" +
-    "egrated\r\nCoprocesador de gráficos\tIntel HD Graphics 4600\r\nCapacidad de almacenam" +
-    "iento de";
+            this.label6.Text = "Modelo de CPU\tci5\r\nVelocidad de la CPU 3 GHz\r\nDescripción de la tarjeta Integrate" +
+    "d\r\nCoprocesador de gráficos\tIntel HD Graphics 4600\r\nCapacidad de almacenamiento " +
+    "de";
             // 
             // label5
             // 

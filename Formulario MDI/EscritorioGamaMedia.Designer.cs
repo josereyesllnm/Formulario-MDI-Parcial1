@@ -76,9 +76,9 @@ namespace Formulario_MDI
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(101, 46);
+            this.pictureBox2.Location = new System.Drawing.Point(52, 58);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(157, 125);
+            this.pictureBox2.Size = new System.Drawing.Size(195, 125);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -86,7 +86,7 @@ namespace Formulario_MDI
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(532, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(537, 58);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 125);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -97,7 +97,7 @@ namespace Formulario_MDI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(109, 192);
+            this.label1.Location = new System.Drawing.Point(101, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 16);
             this.label1.TabIndex = 9;
@@ -107,7 +107,7 @@ namespace Formulario_MDI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(539, 203);
+            this.label2.Location = new System.Drawing.Point(564, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 16);
             this.label2.TabIndex = 10;
@@ -127,7 +127,7 @@ namespace Formulario_MDI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MS PGothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(461, 238);
+            this.label3.Location = new System.Drawing.Point(467, 222);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(308, 65);
             this.label3.TabIndex = 14;
@@ -171,11 +171,11 @@ namespace Formulario_MDI
             this.button3.BackColor = System.Drawing.Color.Violet;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(676, 499);
+            this.button3.Location = new System.Drawing.Point(646, 496);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 32);
+            this.button3.Size = new System.Drawing.Size(129, 35);
             this.button3.TabIndex = 18;
-            this.button3.Text = "Volver a Inicio";
+            this.button3.Text = "VOLVER AL MENU";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -189,7 +189,7 @@ namespace Formulario_MDI
             this.label5.TabIndex = 19;
             this.label5.Text = "PRECIO";
             // 
-            // Form13
+            // EscritorioGamaMedia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -208,7 +208,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form13";
+            this.Name = "EscritorioGamaMedia";
             this.Text = "Computadoras de escritorio";
             this.Load += new System.EventHandler(this.Form13_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
