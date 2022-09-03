@@ -128,12 +128,6 @@
     <Compile Include="AYUDA.Designer.cs">
       <DependentUpon>AYUDA.cs</DependentUpon>
     </Compile>
-    <Compile Include="CuadroDeDialogos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CuadroDeDialogos.Designer.cs">
-      <DependentUpon>CuadroDeDialogos.cs</DependentUpon>
-    </Compile>
     <Compile Include="OfertasDelMes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,9 +186,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AYUDA.resx">
       <DependentUpon>AYUDA.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CuadroDeDialogos.resx">
-      <DependentUpon>CuadroDeDialogos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfertasDelMes.resx">
       <DependentUpon>OfertasDelMes.cs</DependentUpon>

@@ -26,11 +26,6 @@ namespace Formulario_MDI
             f2.ShowDialog();
         }
 
-        private void cuadroDeDialogoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            CuadroDeDialogos f4 = new CuadroDeDialogos();
-            f4.ShowDialog();
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {

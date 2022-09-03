@@ -34,5 +34,16 @@ namespace Formulario_MDI
         {
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+          
+            
+        }
+
+        private void txtcontenedor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

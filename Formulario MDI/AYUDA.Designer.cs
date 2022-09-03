@@ -66,6 +66,7 @@ namespace Formulario_MDI
             this.txtcontenedor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtcontenedor.Size = new System.Drawing.Size(486, 200);
             this.txtcontenedor.TabIndex = 3;
+            this.txtcontenedor.TextChanged += new System.EventHandler(this.txtcontenedor_TextChanged);
             // 
             // button2
             // 
@@ -78,6 +79,7 @@ namespace Formulario_MDI
             this.button2.TabIndex = 4;
             this.button2.Text = "LEER";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // AYUDA
             // 

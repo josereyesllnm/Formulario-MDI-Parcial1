@@ -79,7 +79,7 @@ namespace Formulario_MDI
             // 
             this.opcion1ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.opcion1ToolStripMenuItem.Text = "DESCUENTOS";
             this.opcion1ToolStripMenuItem.Click += new System.EventHandler(this.opcion1ToolStripMenuItem_Click);
             // 
@@ -87,7 +87,7 @@ namespace Formulario_MDI
             // 
             this.opcion2ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.opcion2ToolStripMenuItem.Text = "OFERTAS DEL MES";
             this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
@@ -122,8 +122,11 @@ namespace Formulario_MDI
             this.menu3ToolStripMenuItem.Text = "Portatiles";
             this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
             // 
-            
-          
+            // GamaAltaToolStripMenuItem
+            // 
+            this.GamaAltaToolStripMenuItem.Name = "GamaAltaToolStripMenuItem";
+            this.GamaAltaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            // 
             // GamaMediaToolStripMenuItem
             // 
             this.GamaMediaToolStripMenuItem.Name = "GamaMediaToolStripMenuItem";
@@ -152,13 +155,7 @@ namespace Formulario_MDI
             this.toolStripMenuItem1.Text = "Ayuda";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
-            // cuadroDeDialogoToolStripMenuItem
-            // 
-            this.cuadroDeDialogoToolStripMenuItem.Name = "cuadroDeDialogoToolStripMenuItem";
-            this.cuadroDeDialogoToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
-            this.cuadroDeDialogoToolStripMenuItem.Text = "Cuadro de Dialogo ";
-            this.cuadroDeDialogoToolStripMenuItem.Click += new System.EventHandler(this.cuadroDeDialogoToolStripMenuItem_Click);
-            // 
+            
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
@@ -176,7 +173,7 @@ namespace Formulario_MDI
             this.ClientSize = new System.Drawing.Size(547, 703);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MENU";
