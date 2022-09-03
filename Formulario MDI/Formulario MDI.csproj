@@ -62,11 +62,11 @@
     <Compile Include="CATEGORIASESCRITORIOS.Designer.cs">
       <DependentUpon>CATEGORIASESCRITORIOS.cs</DependentUpon>
     </Compile>
-    <Compile Include="ComputadorasPortatiles.cs">
+    <Compile Include="CATEGORIASPORTATILES.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ComputadorasPortatiles.Designer.cs">
-      <DependentUpon>ComputadorasPortatiles.cs</DependentUpon>
+    <Compile Include="CATEGORIASPORTATILES.Designer.cs">
+      <DependentUpon>CATEGORIASPORTATILES.cs</DependentUpon>
     </Compile>
     <Compile Include="PRODUCTOS.cs">
       <SubType>Form</SubType>
@@ -160,8 +160,8 @@
     <EmbeddedResource Include="CATEGORIASESCRITORIOS.resx">
       <DependentUpon>CATEGORIASESCRITORIOS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ComputadorasPortatiles.resx">
-      <DependentUpon>ComputadorasPortatiles.cs</DependentUpon>
+    <EmbeddedResource Include="CATEGORIASPORTATILES.resx">
+      <DependentUpon>CATEGORIASPORTATILES.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRODUCTOS.resx">
       <DependentUpon>PRODUCTOS.cs</DependentUpon>

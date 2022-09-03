@@ -25,7 +25,7 @@ namespace Formulario_MDI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ComputadorasPortatiles form = new ComputadorasPortatiles();
+            CATEGORIASPORTATILES form = new CATEGORIASPORTATILES();
             form.ShowDialog();
         }
 
@@ -33,6 +33,11 @@ namespace Formulario_MDI
         {
             ACCESORIOS form = new ACCESORIOS();
             form.ShowDialog();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

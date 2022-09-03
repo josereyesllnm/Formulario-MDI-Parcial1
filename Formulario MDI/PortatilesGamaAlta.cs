@@ -64,5 +64,10 @@ namespace Formulario_MDI
                 +
                    "           Su compra ha sido un exito!!", " Computers Guevara.");
         }
+
+        private void form9_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
