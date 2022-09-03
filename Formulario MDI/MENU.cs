@@ -68,11 +68,7 @@ namespace Formulario_MDI
 
         }
 
-        private void GamaAltaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-             form9 f9 = new form9();
-            f9.ShowDialog();
-        }
+      
 
         private void opcion3ToolStripMenuItem_Click(object sender, EventArgs e)
         {

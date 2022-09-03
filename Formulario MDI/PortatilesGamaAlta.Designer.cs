@@ -1,7 +1,7 @@
 ﻿
 namespace Formulario_MDI
 {
-    partial class form9
+    partial class PortatilesGamaAlta
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Formulario_MDI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form9));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PortatilesGamaAlta));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();

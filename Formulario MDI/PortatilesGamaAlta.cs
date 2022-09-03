@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Formulario_MDI
 {
-    public partial class form9 : Form
+    public partial class PortatilesGamaAlta : Form
     {
-        public form9()
+        public PortatilesGamaAlta()
         {
             InitializeComponent();
         }

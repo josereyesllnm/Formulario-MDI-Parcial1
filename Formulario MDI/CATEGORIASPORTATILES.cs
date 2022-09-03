@@ -20,7 +20,8 @@ namespace Formulario_MDI
         //GAMA ALTA PORTATILES
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            PortatilesGamaAlta form = new PortatilesGamaAlta();
+            form.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

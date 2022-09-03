@@ -122,13 +122,8 @@ namespace Formulario_MDI
             this.menu3ToolStripMenuItem.Text = "Portatiles";
             this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
             // 
-            // GamaAltaToolStripMenuItem
-            // 
-            this.GamaAltaToolStripMenuItem.Name = "GamaAltaToolStripMenuItem";
-            this.GamaAltaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.GamaAltaToolStripMenuItem.Text = "Gama Alta";
-            this.GamaAltaToolStripMenuItem.Click += new System.EventHandler(this.GamaAltaToolStripMenuItem_Click);
-            // 
+            
+          
             // GamaMediaToolStripMenuItem
             // 
             this.GamaMediaToolStripMenuItem.Name = "GamaMediaToolStripMenuItem";
