@@ -50,7 +50,7 @@ namespace Formulario_MDI
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(116, 62);
+            this.pictureBox2.Location = new System.Drawing.Point(117, 81);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(157, 125);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -63,7 +63,7 @@ namespace Formulario_MDI
             this.button1.BackColor = System.Drawing.Color.Violet;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(119, 441);
+            this.button1.Location = new System.Drawing.Point(127, 450);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 34);
             this.button1.TabIndex = 8;
@@ -76,7 +76,7 @@ namespace Formulario_MDI
             this.button2.BackColor = System.Drawing.Color.Violet;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(594, 398);
+            this.button2.Location = new System.Drawing.Point(601, 450);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(78, 34);
             this.button2.TabIndex = 9;
@@ -89,11 +89,11 @@ namespace Formulario_MDI
             this.button4.BackColor = System.Drawing.Color.Violet;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(715, 520);
+            this.button4.Location = new System.Drawing.Point(674, 520);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(99, 32);
+            this.button4.Size = new System.Drawing.Size(140, 32);
             this.button4.TabIndex = 11;
-            this.button4.Text = "Volver a Inicio";
+            this.button4.Text = "VOLVER A MENU";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -101,7 +101,7 @@ namespace Formulario_MDI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(51, 190);
+            this.label1.Location = new System.Drawing.Point(60, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(283, 16);
             this.label1.TabIndex = 12;
@@ -123,7 +123,7 @@ namespace Formulario_MDI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(115, 414);
+            this.label3.Location = new System.Drawing.Point(123, 414);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 24);
             this.label3.TabIndex = 14;
@@ -144,7 +144,7 @@ namespace Formulario_MDI
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(603, 338);
+            this.label4.Location = new System.Drawing.Point(605, 388);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 16);
             this.label4.TabIndex = 16;
@@ -154,7 +154,7 @@ namespace Formulario_MDI
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(597, 364);
+            this.label5.Location = new System.Drawing.Point(604, 414);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 24);
             this.label5.TabIndex = 17;
@@ -164,7 +164,7 @@ namespace Formulario_MDI
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(451, 190);
+            this.label6.Location = new System.Drawing.Point(451, 43);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(363, 16);
             this.label6.TabIndex = 18;
@@ -174,7 +174,7 @@ namespace Formulario_MDI
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("MS PGothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(513, 242);
+            this.label8.Location = new System.Drawing.Point(514, 270);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(241, 65);
             this.label8.TabIndex = 19;
@@ -184,14 +184,14 @@ namespace Formulario_MDI
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(556, 62);
+            this.pictureBox1.Location = new System.Drawing.Point(559, 92);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(157, 125);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // Form12
+            // EscritorioGamaAlta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,7 +210,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "Form12";
+            this.Name = "EscritorioGamaAlta";
             this.Text = "Computadoras de escritorio";
             this.Load += new System.EventHandler(this.Form12_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
