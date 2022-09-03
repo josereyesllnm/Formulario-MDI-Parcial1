@@ -58,7 +58,7 @@ namespace Formulario_MDI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 24);
+            this.label1.Location = new System.Drawing.Point(49, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 16);
             this.label1.TabIndex = 1;
@@ -69,7 +69,7 @@ namespace Formulario_MDI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS PGothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(38, 191);
+            this.label2.Location = new System.Drawing.Point(12, 191);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(272, 65);
             this.label2.TabIndex = 2;
@@ -80,7 +80,7 @@ namespace Formulario_MDI
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(102, 295);
+            this.label3.Location = new System.Drawing.Point(60, 350);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 24);
             this.label3.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace Formulario_MDI
             this.button1.BackColor = System.Drawing.Color.Violet;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(106, 325);
+            this.button1.Location = new System.Drawing.Point(70, 387);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 36);
             this.button1.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace Formulario_MDI
             this.button3.BackColor = System.Drawing.Color.Violet;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(670, 702);
+            this.button3.Location = new System.Drawing.Point(713, 490);
             this.button3.Name = "button3";
             this.button3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button3.Size = new System.Drawing.Size(136, 35);
@@ -116,7 +116,7 @@ namespace Formulario_MDI
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(66, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(174, 122);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +127,7 @@ namespace Formulario_MDI
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(339, 419);
+            this.pictureBox2.Location = new System.Drawing.Point(646, 68);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(151, 116);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,7 +137,7 @@ namespace Formulario_MDI
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(529, 43);
+            this.pictureBox3.Location = new System.Drawing.Point(352, 57);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(164, 127);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +149,7 @@ namespace Formulario_MDI
             this.button4.BackColor = System.Drawing.Color.Violet;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(601, 325);
+            this.button4.Location = new System.Drawing.Point(392, 387);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(80, 36);
             this.button4.TabIndex = 10;
@@ -162,7 +162,7 @@ namespace Formulario_MDI
             this.button5.BackColor = System.Drawing.Color.Violet;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(373, 688);
+            this.button5.Location = new System.Drawing.Point(697, 387);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(80, 36);
             this.button5.TabIndex = 11;
@@ -174,7 +174,7 @@ namespace Formulario_MDI
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(284, 389);
+            this.label4.Location = new System.Drawing.Point(575, 24);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(265, 16);
             this.label4.TabIndex = 12;
@@ -184,7 +184,7 @@ namespace Formulario_MDI
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(525, 24);
+            this.label5.Location = new System.Drawing.Point(362, 24);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(154, 16);
             this.label5.TabIndex = 13;
@@ -194,20 +194,20 @@ namespace Formulario_MDI
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MS PGothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(449, 191);
+            this.label6.Location = new System.Drawing.Point(340, 191);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(373, 52);
+            this.label6.Size = new System.Drawing.Size(190, 78);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Procesador Intel Core i7 de 11ª generación i7-11800H \r\nocho núcleos de 2,3 GHz (4" +
-    ",6 GHz con Turbo Boost)\r\nDisco duro SSD de 1 TB \r\nmemoria RAM de 16 GB";
+            this.label6.Text = "Procesador Intel Core i7 \r\n 11ª generación i7-11800H \r\nocho núcleos de 2,3 GHz \r\n" +
+    "(4,6 GHz con Turbo Boost)\r\nDisco duro SSD de 1 TB \r\nmemoria RAM de 16 GB";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MS PGothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(276, 538);
+            this.label7.Location = new System.Drawing.Point(585, 191);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(327, 78);
+            this.label7.Size = new System.Drawing.Size(264, 104);
             this.label7.TabIndex = 15;
             this.label7.Text = resources.GetString("label7.Text");
             // 
@@ -215,7 +215,7 @@ namespace Formulario_MDI
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(610, 272);
+            this.label8.Location = new System.Drawing.Point(389, 327);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 16);
             this.label8.TabIndex = 16;
@@ -225,7 +225,7 @@ namespace Formulario_MDI
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(109, 272);
+            this.label9.Location = new System.Drawing.Point(67, 327);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 16);
             this.label9.TabIndex = 17;
@@ -235,7 +235,7 @@ namespace Formulario_MDI
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("MS PGothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(376, 645);
+            this.label10.Location = new System.Drawing.Point(700, 327);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(69, 16);
             this.label10.TabIndex = 18;
@@ -245,7 +245,7 @@ namespace Formulario_MDI
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(369, 661);
+            this.label11.Location = new System.Drawing.Point(693, 350);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(90, 24);
             this.label11.TabIndex = 19;
@@ -255,7 +255,7 @@ namespace Formulario_MDI
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(597, 295);
+            this.label12.Location = new System.Drawing.Point(382, 350);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 24);
             this.label12.TabIndex = 20;
@@ -266,7 +266,7 @@ namespace Formulario_MDI
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(818, 749);
+            this.ClientSize = new System.Drawing.Size(852, 537);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -288,7 +288,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "PortatilesGamaAlta";
-            this.Text = "Portatiles";
+            this.Text = "Portatiles Gama Alta ";
             this.Load += new System.EventHandler(this.form9_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
