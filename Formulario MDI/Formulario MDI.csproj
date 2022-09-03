@@ -56,6 +56,24 @@
     <Compile Include="ACERCADE.Designer.cs">
       <DependentUpon>ACERCADE.cs</DependentUpon>
     </Compile>
+    <Compile Include="CATEGORIASESCRITORIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CATEGORIASESCRITORIOS.Designer.cs">
+      <DependentUpon>CATEGORIASESCRITORIOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComputadorasPortatiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputadorasPortatiles.Designer.cs">
+      <DependentUpon>ComputadorasPortatiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUCTOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUCTOS.Designer.cs">
+      <DependentUpon>PRODUCTOS.cs</DependentUpon>
+    </Compile>
     <Compile Include="LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +156,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ACERCADE.resx">
       <DependentUpon>ACERCADE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CATEGORIASESCRITORIOS.resx">
+      <DependentUpon>CATEGORIASESCRITORIOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComputadorasPortatiles.resx">
+      <DependentUpon>ComputadorasPortatiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUCTOS.resx">
+      <DependentUpon>PRODUCTOS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>

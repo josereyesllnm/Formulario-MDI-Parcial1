@@ -39,5 +39,10 @@ namespace Formulario_MDI
         {
             this.Hide();
         }
+
+        private void EscritorioGamaBaja_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

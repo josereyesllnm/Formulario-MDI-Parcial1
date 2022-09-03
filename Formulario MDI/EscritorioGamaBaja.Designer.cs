@@ -189,7 +189,7 @@ namespace Formulario_MDI
             this.label5.Text = "Sistema operativo\tWindows 7 Professional\r\nModelo de CPU\tCore 2 Duo\r\nVelocidad de " +
     "la CPU 2.8 GHz\r\nCoprocesador de gráficos\tIntel GMA X4500";
             // 
-            // Form14
+            // EscritorioGamaBaja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -208,8 +208,9 @@ namespace Formulario_MDI
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
-            this.Name = "Form14";
+            this.Name = "EscritorioGamaBaja";
             this.Text = "Computadoras de escritorio";
+            this.Load += new System.EventHandler(this.EscritorioGamaBaja_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

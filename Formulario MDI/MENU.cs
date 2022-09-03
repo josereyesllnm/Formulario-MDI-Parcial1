@@ -122,6 +122,24 @@ namespace Formulario_MDI
             AYUDA f3 = new AYUDA();
             f3.ShowDialog();
         }
+
+        private void cATEGORIASToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EscritorioGamaAlta f12 = new EscritorioGamaAlta();
+            f12.ShowDialog();
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+            EscritorioGamaAlta f12 = new EscritorioGamaAlta();
+            f12.ShowDialog();
+        }
+
+        private void equposDeEscritorioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EquiposDeEscritorio form = new EquiposDeEscritorio();
+            form.ShowDialog();
+        }
     }
 
 }

@@ -34,11 +34,8 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcion1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcion2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opcion3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.gamaaltaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gamamediaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gamabajaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.equposDeEscritorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GamaAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GamaMediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,8 +69,7 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opcion1ToolStripMenuItem,
-            this.opcion2ToolStripMenuItem,
-            this.opcion3ToolStripMenuItem});
+            this.opcion2ToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.menuToolStripMenuItem.Text = "Combos";
@@ -81,57 +77,39 @@ namespace Formulario_MDI
             // 
             // opcion1ToolStripMenuItem
             // 
+            this.opcion1ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion1ToolStripMenuItem.Text = "DESCUENTOS";
             this.opcion1ToolStripMenuItem.Click += new System.EventHandler(this.opcion1ToolStripMenuItem_Click);
             // 
             // opcion2ToolStripMenuItem
             // 
+            this.opcion2ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion2ToolStripMenuItem.Text = "OFERTAS DEL MES";
             this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
-            // 
-            // opcion3ToolStripMenuItem
-            // 
-            this.opcion3ToolStripMenuItem.Name = "opcion3ToolStripMenuItem";
-            this.opcion3ToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.opcion3ToolStripMenuItem.Text = "ACCESORIOS";
-            this.opcion3ToolStripMenuItem.Click += new System.EventHandler(this.opcion3ToolStripMenuItem_Click);
             // 
             // menuToolStripMenuItem1
             // 
             this.menuToolStripMenuItem1.BackColor = System.Drawing.Color.Transparent;
             this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gamaaltaaToolStripMenuItem,
-            this.gamamediaaToolStripMenuItem,
-            this.gamabajaaToolStripMenuItem});
+            this.equposDeEscritorioToolStripMenuItem});
             this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(68, 20);
-            this.menuToolStripMenuItem1.Text = "Escritorio";
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(73, 20);
+            this.menuToolStripMenuItem1.Text = "Productos";
             this.menuToolStripMenuItem1.Click += new System.EventHandler(this.menuToolStripMenuItem1_Click);
             // 
-            // gamaaltaaToolStripMenuItem
+            // equposDeEscritorioToolStripMenuItem
             // 
-            this.gamaaltaaToolStripMenuItem.Name = "gamaaltaaToolStripMenuItem";
-            this.gamaaltaaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.gamaaltaaToolStripMenuItem.Text = "Gama Alta";
-            this.gamaaltaaToolStripMenuItem.Click += new System.EventHandler(this.gamaltaaToolStripMenuItem_Click);
-            // 
-            // gamamediaaToolStripMenuItem
-            // 
-            this.gamamediaaToolStripMenuItem.Name = "gamamediaaToolStripMenuItem";
-            this.gamamediaaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.gamamediaaToolStripMenuItem.Text = "Gama Media";
-            this.gamamediaaToolStripMenuItem.Click += new System.EventHandler(this.gamamediaaToolStripMenuItem_Click);
-            // 
-            // gamabajaaToolStripMenuItem
-            // 
-            this.gamabajaaToolStripMenuItem.Name = "gamabajaaToolStripMenuItem";
-            this.gamabajaaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.gamabajaaToolStripMenuItem.Text = "Gama Baja";
-            this.gamabajaaToolStripMenuItem.Click += new System.EventHandler(this.gamabajaaToolStripMenuItem_Click);
+            this.equposDeEscritorioToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
+            this.equposDeEscritorioToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.equposDeEscritorioToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
+            this.equposDeEscritorioToolStripMenuItem.Name = "equposDeEscritorioToolStripMenuItem";
+            this.equposDeEscritorioToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.equposDeEscritorioToolStripMenuItem.Text = "EQUIPOS TECNOLOGICOS";
+            this.equposDeEscritorioToolStripMenuItem.Click += new System.EventHandler(this.equposDeEscritorioToolStripMenuItem_Click);
             // 
             // menu3ToolStripMenuItem
             // 
@@ -227,15 +205,12 @@ namespace Formulario_MDI
         private System.Windows.Forms.ToolStripMenuItem cuadroDeDialogoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcion1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcion2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem opcion3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem GamaAltaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem GamaMediaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem GamaBajaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gamaaltaaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gamamediaaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gamabajaaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem equposDeEscritorioToolStripMenuItem;
     }
 }
 
