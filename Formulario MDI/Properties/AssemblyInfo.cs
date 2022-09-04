@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("Computers Guevara.")]
-[assembly: AssemblyDescription("Sistema de inventario")]
+[assembly: AssemblyDescription("Somos una empresa que se encarga en la venta de productos tecnologicos ofreciendo la maxima calidad de servicio en nuestros productos tanto como el servicio al cliente.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Computers Guevara Inc.")]
 [assembly: AssemblyProduct("Formulario MDI")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
+[assembly: AssemblyCopyright("Copyright © HP Inc. 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

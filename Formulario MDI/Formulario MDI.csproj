@@ -68,23 +68,11 @@
     <Compile Include="CATEGORIASPORTATILES.Designer.cs">
       <DependentUpon>CATEGORIASPORTATILES.cs</DependentUpon>
     </Compile>
-    <Compile Include="CLIENTES.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CLIENTES.Designer.cs">
-      <DependentUpon>CLIENTES.cs</DependentUpon>
-    </Compile>
     <Compile Include="FACTURACION.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FACTURACION.Designer.cs">
       <DependentUpon>FACTURACION.cs</DependentUpon>
-    </Compile>
-    <Compile Include="INVENTARIO DE PRODUCTO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="INVENTARIO DE PRODUCTO.Designer.cs">
-      <DependentUpon>INVENTARIO DE PRODUCTO.cs</DependentUpon>
     </Compile>
     <Compile Include="PRODUCTOS.cs">
       <SubType>Form</SubType>
@@ -166,12 +154,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PROVEEDORES.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PROVEEDORES.Designer.cs">
-      <DependentUpon>PROVEEDORES.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="ACERCADE.resx">
       <DependentUpon>ACERCADE.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,9 +165,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FACTURACION.resx">
       <DependentUpon>FACTURACION.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="INVENTARIO DE PRODUCTO.resx">
-      <DependentUpon>INVENTARIO DE PRODUCTO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRODUCTOS.resx">
       <DependentUpon>PRODUCTOS.cs</DependentUpon>
@@ -236,9 +215,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="PROVEEDORES.resx">
-      <DependentUpon>PROVEEDORES.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -124,23 +124,9 @@ namespace Formulario_MDI
             form.ShowDialog();
         }
 
-        private void FACTURACIONtoolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-            FACTURACION form = new FACTURACION();
-            form.ShowDialog();
-        }
+        
 
-        private void CLIENTESToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            CLIENTES form = new CLIENTES();
-            form.ShowDialog();
+     
         }
-
-        private void PROVEEDORESToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            PROVEEDORES form = new PROVEEDORES();
-            form.ShowDialog();
-        }
-    }
 
 }
