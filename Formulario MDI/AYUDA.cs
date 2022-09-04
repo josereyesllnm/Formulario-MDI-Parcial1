@@ -17,38 +17,23 @@ namespace Formulario_MDI
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
 
+     
+        private void btn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Esta Seguro de enviar su solicitud de ayuda?", " Confirmacion de Solicitud", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            MessageBox.Show(" Muchas Gracias por enviar su solicitud de ayuda trataremos de   solucionar sus interrogantes lo mas pronto posible.                                                     "
+                +
+
+
+                   "           Su solicitud ha sido enviada correctamente!!", " Computers Guevara.");
+         
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Esta Seguro de realizar esta valoracion de el sistema?                   ", " Confirmacion de valoracion", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            MessageBox.Show(" Muchas Gracias por tus aportes                                                          "
-                +
-                   "           Peticion de valoracion enviada !!!", " Computers Guevara.");
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-          
-            
-        }
-
-        private void txtcontenedor_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            this.Hide();
         }
     }
 }

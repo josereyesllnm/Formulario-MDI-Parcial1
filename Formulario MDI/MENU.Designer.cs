@@ -60,7 +60,8 @@ namespace Formulario_MDI
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(547, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(638, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -70,9 +71,9 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opcion1ToolStripMenuItem,
             this.opcion2ToolStripMenuItem});
-            this.menuToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
             this.menuToolStripMenuItem.Text = "Promociones";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
@@ -81,7 +82,7 @@ namespace Formulario_MDI
             this.opcion1ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion1ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion1ToolStripMenuItem.Name = "opcion1ToolStripMenuItem";
-            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.opcion1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion1ToolStripMenuItem.Text = "DESCUENTOS";
             this.opcion1ToolStripMenuItem.Click += new System.EventHandler(this.opcion1ToolStripMenuItem_Click);
             // 
@@ -90,7 +91,7 @@ namespace Formulario_MDI
             this.opcion2ToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
             this.opcion2ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.opcion2ToolStripMenuItem.Name = "opcion2ToolStripMenuItem";
-            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.opcion2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.opcion2ToolStripMenuItem.Text = "OFERTAS DEL MES";
             this.opcion2ToolStripMenuItem.Click += new System.EventHandler(this.opcion2ToolStripMenuItem_Click);
             // 
@@ -99,9 +100,9 @@ namespace Formulario_MDI
             this.menuToolStripMenuItem1.BackColor = System.Drawing.Color.Transparent;
             this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.equposDeEscritorioToolStripMenuItem});
-            this.menuToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(75, 20);
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(92, 24);
             this.menuToolStripMenuItem1.Text = "Productos";
             this.menuToolStripMenuItem1.Click += new System.EventHandler(this.menuToolStripMenuItem1_Click);
             // 
@@ -111,7 +112,7 @@ namespace Formulario_MDI
             this.equposDeEscritorioToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equposDeEscritorioToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.equposDeEscritorioToolStripMenuItem.Name = "equposDeEscritorioToolStripMenuItem";
-            this.equposDeEscritorioToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.equposDeEscritorioToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.equposDeEscritorioToolStripMenuItem.Text = "EQUIPOS TECNOLOGICOS";
             this.equposDeEscritorioToolStripMenuItem.Click += new System.EventHandler(this.equposDeEscritorioToolStripMenuItem_Click);
             // 
@@ -121,9 +122,9 @@ namespace Formulario_MDI
             this.clientesToolStripMenuItem,
             this.fACTURACIONToolStripMenuItem,
             this.pROVEEDORESToolStripMenuItem});
-            this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(77, 20);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(93, 24);
             this.toolStripMenuItem2.Text = "Inventario";
             // 
             // clientesToolStripMenuItem
@@ -147,6 +148,7 @@ namespace Formulario_MDI
             // pROVEEDORESToolStripMenuItem
             // 
             this.pROVEEDORESToolStripMenuItem.BackColor = System.Drawing.Color.HotPink;
+            this.pROVEEDORESToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pROVEEDORESToolStripMenuItem.Name = "pROVEEDORESToolStripMenuItem";
             this.pROVEEDORESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pROVEEDORESToolStripMenuItem.Text = "PROVEEDORES";
@@ -154,43 +156,44 @@ namespace Formulario_MDI
             // 
             // acercaDeToolStripMenuItem
             // 
-            this.acercaDeToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.acercaDeToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.acercaDeToolStripMenuItem.Text = "Acerca de ";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(66, 24);
             this.toolStripMenuItem1.Text = "Ayuda";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // cuadroDeDialogoToolStripMenuItem
             // 
             this.cuadroDeDialogoToolStripMenuItem.Name = "cuadroDeDialogoToolStripMenuItem";
-            this.cuadroDeDialogoToolStripMenuItem.Size = new System.Drawing.Size(12, 20);
+            this.cuadroDeDialogoToolStripMenuItem.Size = new System.Drawing.Size(12, 24);
             // 
             // salirToolStripMenuItem
             // 
-            this.salirToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salirToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // MENU
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(547, 703);
+            this.ClientSize = new System.Drawing.Size(638, 406);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
