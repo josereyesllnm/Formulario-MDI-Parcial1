@@ -48,12 +48,13 @@ namespace Formulario_MDI
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Violet;
+            this.button1.BackColor = System.Drawing.Color.Crimson;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(391, 321);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button1.Location = new System.Drawing.Point(416, 321);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 31);
+            this.button1.Size = new System.Drawing.Size(94, 31);
             this.button1.TabIndex = 2;
             this.button1.Text = "VALORACION";
             this.button1.UseVisualStyleBackColor = false;
@@ -71,12 +72,12 @@ namespace Formulario_MDI
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Violet;
+            this.button2.BackColor = System.Drawing.Color.Crimson;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(24, 321);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 31);
+            this.button2.Size = new System.Drawing.Size(74, 31);
             this.button2.TabIndex = 4;
             this.button2.Text = "LEER";
             this.button2.UseVisualStyleBackColor = false;
