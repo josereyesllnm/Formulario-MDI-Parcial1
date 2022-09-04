@@ -130,7 +130,9 @@ namespace Formulario_MDI
             form.ShowDialog();
         }
 
-        private void pROVEEDORESToolStripMenuItem_Click(object sender, EventArgs e)
+      
+        
+        private void pROVEEDORESToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             PROVEEDORES form = new PROVEEDORES();
             form.ShowDialog();
