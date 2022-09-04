@@ -137,6 +137,12 @@ namespace Formulario_MDI
             PROVEEDORES form = new PROVEEDORES();
             form.ShowDialog();
         }
+
+        private void fACTURACIONToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FACTURACION form = new FACTURACION();
+            form.ShowDialog();
+        }
     }
 
 }
