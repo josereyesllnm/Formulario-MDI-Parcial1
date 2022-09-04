@@ -80,6 +80,12 @@
     <Compile Include="FACTURACION.Designer.cs">
       <DependentUpon>FACTURACION.cs</DependentUpon>
     </Compile>
+    <Compile Include="INVENTARIO DE PRODUCTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INVENTARIO DE PRODUCTO.Designer.cs">
+      <DependentUpon>INVENTARIO DE PRODUCTO.cs</DependentUpon>
+    </Compile>
     <Compile Include="PRODUCTOS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FACTURACION.resx">
       <DependentUpon>FACTURACION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INVENTARIO DE PRODUCTO.resx">
+      <DependentUpon>INVENTARIO DE PRODUCTO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRODUCTOS.resx">
       <DependentUpon>PRODUCTOS.cs</DependentUpon>
