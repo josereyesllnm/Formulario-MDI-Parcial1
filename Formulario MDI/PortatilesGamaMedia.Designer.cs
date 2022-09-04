@@ -300,7 +300,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "PortatilesGamaMedia";
-            this.Text = "Portatiles";
+            this.Text = "COMPUTADORAS PORTATILES GAMA MEDIA";
             this.Load += new System.EventHandler(this.Form10_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

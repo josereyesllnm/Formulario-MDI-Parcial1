@@ -211,7 +211,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "EscritorioGamaAlta";
-            this.Text = "Computadoras de escritorio";
+            this.Text = "COMPUTADORAS DE ESCRITORIO GAMA ALTA";
             this.Load += new System.EventHandler(this.Form12_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

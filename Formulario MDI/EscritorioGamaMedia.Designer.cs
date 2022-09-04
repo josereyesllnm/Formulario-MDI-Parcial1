@@ -209,7 +209,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "EscritorioGamaMedia";
-            this.Text = "Computadoras de escritorio";
+            this.Text = "COMPUTADORAS DE ESCRITORIO GAMA MEDIA";
             this.Load += new System.EventHandler(this.Form13_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

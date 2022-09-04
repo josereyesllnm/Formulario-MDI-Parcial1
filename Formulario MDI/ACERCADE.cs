@@ -14,7 +14,7 @@ namespace Formulario_MDI
         public ACERCADE()
         {
             InitializeComponent();
-            this.Text = String.Format("Acerca de Computers Guevara.", AssemblyTitle);
+            this.Text = String.Format("ACERCA DE COMPUTERS GUEVARA", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
             this.labelVersion.Text = String.Format("Versión {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;

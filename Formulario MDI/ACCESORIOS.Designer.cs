@@ -377,7 +377,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ACCESORIOS";
-            this.Text = "Accesorios";
+            this.Text = "  ACCESORIOS";
             this.Load += new System.EventHandler(this.ACCESORIOS_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

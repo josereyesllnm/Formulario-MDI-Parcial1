@@ -293,7 +293,7 @@ namespace Formulario_MDI
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "PortatilesGamaBaja";
-            this.Text = "Portatiles Gama Baja";
+            this.Text = "COMPUTADORAS PORTATILES GAMA BAJA";
             this.Load += new System.EventHandler(this.Form11_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
