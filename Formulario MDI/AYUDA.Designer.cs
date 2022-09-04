@@ -60,11 +60,11 @@ namespace Formulario_MDI
             // 
             // txtcontenedor
             // 
-            this.txtcontenedor.Location = new System.Drawing.Point(24, 84);
+            this.txtcontenedor.Location = new System.Drawing.Point(53, 84);
             this.txtcontenedor.Multiline = true;
             this.txtcontenedor.Name = "txtcontenedor";
             this.txtcontenedor.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtcontenedor.Size = new System.Drawing.Size(486, 200);
+            this.txtcontenedor.Size = new System.Drawing.Size(419, 200);
             this.txtcontenedor.TabIndex = 3;
             this.txtcontenedor.TextChanged += new System.EventHandler(this.txtcontenedor_TextChanged);
             // 
@@ -85,7 +85,7 @@ namespace Formulario_MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.SlateBlue;
             this.ClientSize = new System.Drawing.Size(531, 364);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtcontenedor);
