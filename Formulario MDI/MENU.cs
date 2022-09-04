@@ -124,9 +124,17 @@ namespace Formulario_MDI
             form.ShowDialog();
         }
 
-        
-
-     
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           CLIENTES form = new CLIENTES();
+            form.ShowDialog();
         }
+
+        private void pROVEEDORESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PROVEEDORES form = new PROVEEDORES();
+            form.ShowDialog();
+        }
+    }
 
 }
